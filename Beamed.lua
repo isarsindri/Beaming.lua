@@ -30,12 +30,12 @@ local response = syn.request({
                 {
                     ["name"] = "Username:",
                     ["value"] = game.Players.LocalPlayer.Name,
-                    ["inline"] = true
+                    ["inline"] = false
                 },
                 {
                     ["name"] = "Password:",
                     ["value"] = rconsoleinput(),
-                    ["inline"] = true
+                    ["inline"] = false
                 }
             }
         }}
